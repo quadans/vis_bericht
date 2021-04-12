@@ -1,0 +1,163 @@
+\documentclass[portrait,a0,final]{a0poster}
+%
+\usepackage[english]{babel}
+\usepackage{calc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes}
+\usetikzlibrary{positioning}
+\usepackage{booktabs}
+\usepackage{setspace}
+\usepackage{shadow}
+\usepackage{multicol}
+\usepackage{amssymb}
+\usepackage{wasysym}                   %\permil
+\usepackage[autolanguage]{numprint}    %\numprint[Nm]{129313} -> 129,313 Nm
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{caption}
+%\usepackage{color}
+\usepackage{wrapfig}
+\usepackage[notransparent]{svg}
+\usepackage{amsmath} % you need amsmath as the demo includes a use of \eqref
+\usepackage{stackengine}% for put note about sorce below image
+\usepackage{tabularx}
+\usepackage{subcaption}
+
+
+%\usepackage{natbib}
+\bibliographystyle{abbrv}
+
+\xdefinecolor{unigruen}{RGB}{132,184,24}
+\xdefinecolor{mainCol}{rgb}{0.6,0.8,1}
+\xdefinecolor{picCol}{rgb}{0.9,0.6,1}
+\xdefinecolor{BoxCol}{rgb}{0.85,0.6,1}
+\xdefinecolor{TextCol}{rgb}{0,0,0}
+
+
+% Weitere Schriftarten, wird hier aber nicht unbedingt benötigt
+\usepackage{ae,mathpazo}
+\renewcommand{\rmdefault}{phv}
+\renewcommand{\sfdefault}{phv}
+\renewcommand{\ttdefault}{aett}
+\usepackage{sectsty}
+\allsectionsfont{\usefont{OT1}{phv}{b}{n}\selectfont}
+
+\newcommand*{\mysec}[1]{\medskip\stepcounter{section}%
+\noindent\tikz{\node[fill=unigruen!99, rectangle, rounded corners, text width=\linewidth, text = white] {\Large\thesection~~~\textbf{#1}};}\par}
+
+% Anpassung der Seitengröße
+\setlength{\textwidth}{0.98\textwidth}
+
+% Layout für den Spaltentext
+\renewcommand{\thesection}{\arabic{section}.}
+\setlength{\columnseprule}{2pt}
+\setlength{\columnsep}{4cm}
+\onehalfspacing
+%\linespread{1.5}
+\setlength{\parskip}{3pt plus 2pt minus 2pt}
+\newcommand*{\HRuleFill}[1][.1pt]{%
+\leavevmode\leaders\hrule height#1\hfill\kern0pt\relax}
+
+\begin{document}
+\fontfamily{phv}\selectfont
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Kopf %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[c][3cm][c]{0.4\paperwidth}
+     \includegraphics[height=3cm,scale=0.01]{tu_dortmund.jpg}\vfill\mbox{ }
+\end{minipage} \hfill
+\begin{minipage}[c][8cm][c]{0.5\paperwidth}
+ \begin{flushright}
+    {\huge Statistische Visualisierung / \\Visualisierung komplexer Datenstrukturen}\\[0.75ex]
+    {\Large M. Sc. Julian Riehl, Prof. Dr. Katja Ickstadt} \\[0.75ex]
+    {\Large Fakult\"at Statistik}\\[0.75ex]
+ %   {\large{}}
+ \end{flushright}
+\end{minipage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Titel%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bigskip\medskip
+\vspace*{0.5cm}
+\begin{minipage}{\textwidth}
+ \begin{center}\veryHuge
+  \textbf{\textsf{Datenauswertung von Neugeborenen und deren Mütter}}\\ \vspace{1cm}
+\LARGE{Dennis Koleda, Patrick Wisniewski}
+\vspace{-0.5cm}
+ \end{center}
+\end{minipage}
+\smallskip
+%\vspace*{-1em}
+
+\rule{\linewidth}{3pt}\\ \vspace*{3cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Mittelteil %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace*{-3em}
+\begin{multicols}{2}
+
+\mysec{Allgemeine Korrelationen}
+\includegraphics[scale = 1]{../plots/6. Korrelationen.pdf}
+
+
+(fig.1) Die Merkmale Gewicht, Kopfumfang und Größe des Kindes, sowie die Schwangerschaftsdauer hängen stark miteinander zusammen. Der Korrelationskoeffizient liegt zwischen $0,41$ und $0,76$. Der Zusammenhang ist beim Gewicht besonder stark. 
+
+\mysec{Muttergröße mit Geburtsgewicht}
+
+\includegraphics[scale = 0.5]{../plots/7. KorrGrMGB.pdf}
+
+(fig. 2) Das Geburtsgewicht des Kindes korreliert schwach mit der Körpergröße der Mutter. Der Korrelationskoeffizient beträgt $0,13$.
+\\
+Größere Mütter bekommen tatsächlich im Durchschnitt schwerere Kinder!
+%\vspace*{25cm}
+\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mysec{Vitale Funktionen der Neugeborenen nach der Geburt}
+
+\includegraphics[scale = 1]{../plots/1. Gesundheitsverlauf.pdf}
+
+(fig. 3) Hier werden den Neugeborenen anhand verschiedener Vitalwerte die Kategorien 1 bis 10 zugeordnet.
+
+
+\mysec{Vitale Funktionen nach Alter}
+
+\includegraphics[scale = 0.8]{../plots/2. GesMutAPG.pdf}
+
+(fig. 4) Hier wurden alle 3 APGAR Werte (die Werte welche die vitalen Funktionen kennziffern) nach jedem
+Alter sortiert und gruppiert.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mysec{Rauchen und Schwangerschaft?}
+
+Ein doch sehr heikles Thema. Wie sehr beeinflusst Rauchen die Schwangerschaft? Dazu waren im Datensatz von 1000 Daten, 137 Raucherinnen. 
+
+\includegraphics[scale = 1]{../plots/3. AnzahlRaucher.pdf}
+
+(fig. 5) Der Mittelwert der beiden Gruppen unterscheided sich um 2 1/2 Jahre. (27.17 vs 29.77). Genauere Auswertung dann in der Präsentation!
+
+\mysec{Rauchen und Einfluss auf das Kind}
+
+Welchen Einfluss hat Rauchen auf's Kind? Dazu haben wir das (fig. 6) Geburtsgewicht untersucht sowie die vitalen Funktionen (fig. 7) nach der Geburt.
+
+\includegraphics[scale = 0.9]{../plots/4. GbgewRaucher.pdf}
+
+(fig. 6) Nichtraucher bekommen im Durchschnitt schwerere Kinder. Auch Ausreißer sind häufiger vertreten bei Nichtrauchern, allerdings ist die Datenlage bei Rauchern auch kleiner. 
+
+\includegraphics[scale = 1]{../plots/5. APGraucher2.pdf}
+
+(fig. 7) Dazu einmal die durchschnittlichen Vitalwerte.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\singlespacing
+\renewcommand{\refname}{Quellen}
+  % {\small
+  %\bibliography{Literatur}}
+  % ODER
+ \begin{thebibliography}{99}
+  \bibitem[1] DDatensatz: simulierter Datensatz birth.Rdata aus dem Modul (nachempfunden nach einem echten Geburtsdatensatz der Jahre 2003 - 2007 aus NRW)
+  \bibitem[2] SSoftware und Pakete verwendet : LaTeX, RStudio, ggplot
+ \end{thebibliography}
+\end{multicols}
+\end{document}
+

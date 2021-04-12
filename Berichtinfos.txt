@@ -1,0 +1,261 @@
+Da DSC => Bericht
+	15 Seiten
+	Angabe wer welches Kapitel gemacht hat
+	Latex vorlage verwenden (Schriftgröße/Seitenränder usw beachten)
+	Abgabetermin : 26.04.2021, 12 Uhr mittags.
+
+    
+Aufbau
+
+(1) Deckblatt
+    – Veranstaltungsname
+    – Thema des Projekts
+    – Namen der Dozenten
+    – Namen des Verfassers und der übrigen Gruppenmitglieder
+    – Datum
+
+(2) Inhaltsverzeichnis
+    – Auflistung aller Kapitel (einschließlich Unterkapitel falls vorhanden), des An-
+    hangs und des Literaturverzeichnisses, jeweils mit Angabe der Seitennummer 
+
+Hinweise:
+    – Das Inhaltsverzeichnis gehort auf die zweite Seite.
+    – Die Lange des Inhaltsverzeichnis sollte fur die Lange des Berichtes angemessen
+      sein, z.B. nicht zu detailliert sein.
+
+(3) Einleitung
+    – Motivation, kurze Beschreibung von Inhalt und Ziel des Teilprojekts
+    – kurze Erlauterung der Vorgehensweise zur Problemlosung
+    – evtl. kurze Darstellung der zentralen Ergebnisse
+    – ¨Uberblick ¨uber die einzelnen Kapitel
+
+(4) Problemstellung
+    – Beschreibung der Ziele des Projekts (inhaltliche und statistische Zielsetzung)
+    – Beschreibung des Datenmaterials
+    ∗ Art und Umfang der Stichprobe (Vollerhebung, Schichtung usw.)
+    ∗ Art der Datenerhebung (geplanter Versuch, Beobachtungsstudie, Fragebogen usw.)
+    ∗ Beschreibung aller Variablen (inhaltliche Bedeutung, Einheiten usw.)
+    ∗ Diskussion der Datenqualitat (fehlende Werte, Messgenauigkeit usw.)
+
+(5) Statistische Methoden
+    – Beschreibung der verwendeten statistischen Verfahren, Modelle usw. und wel-
+      che Eigenschaften diese besitzen (hier sind auch mathematische Formeln notig)
+    – Diskussion der zugrunde liegenden Annahmen, Rechtfertigung der Annahmen
+      bzw. wie sie uberpruft werden konnen (auch hier k¨onnen mathematische For-
+      meln notig sein)
+    – Angabe der verwendeten Hilfsmittel (Software, statistische Tafeln usw.)
+
+(6) Statistische Auswertung
+    – Gegebenenfalls Uberprufung der zugrunde liegenden Annahmen
+    – Ausfuhrliche Darstellung der Ergebnisse, aufbereitet mit Hilfe von Tabellen
+      und Grafiken
+    – Interpretation der Ergebnisse in Hinblick auf die Problemstellung
+
+(7) Zusammenfassung
+    – Kurze Wiederholung der Fragestellung des Projekts
+    – Kurze Darstellung der wichtigsten Ergebnisse
+    – Diskussion der Ergebnisse (mogliche Schlussfolgerungen, Warnung vor Fehlin-
+    terpretationen usw.)
+    – Ausblick (offene Fragen, Hinweis auf mogliche weitere Untersuchungen usw.) Hinweis
+    Die Einleitung und die Zusammenfassung sollen eigenstandig lesbar sein.
+
+(8) Anhang
+    – Programmcode gegliedert nach den einzelnen Fragestellungen, die in ¨Uber-
+    schriften angegeben werden
+    – Weitere wichtige Tabellen und Grafiken
+    Hinweis
+    Bei einer Gliederung im Anhang werden Buchstaben (und keine Zahlen wie im
+    ”Kern“ des Berichts) verwendet.
+(9) Literaturverzeichnis
+    – Auflistung aller zur Auswertung herangezogenen Zeitschriftenartikel, Bucher
+    (dazu gehoren z.B. auch Software-Manuals) und Web-Seiten in alphabetischer
+    Reihenfolge der Autoren.
+    Hinweise
+    – Beispiel fur eine Lehrbuchangabe:
+        Schumacher, M. und Schulgen, G. (2008). Methodik klinischer Studien. 3. Auf-
+        lage, Springer, Berlin.
+    – Beispiel fur einen Zeitschriftenartikel:
+        Byth, K., Cox, D. R. und Forder, P. (2006). Assessing the relationship between
+        symptoms of allergic rhinoconjunctivitis and pollen counts. Australian and New
+        Zealand Journal of Statistics 48(4), 417-428.
+    – Bei Web-Seiten muss das Datum der Abfrage mit angegeben werden.
+    – Wie die verwendete Software anzugeben ist, wird durch die Software festgelegt.
+    Wie z.B. R zitiert werden soll, gibt R mit dem Befehl citation() an, z.B. fur
+    R 2.8.1:
+    R Development Core Team zwe(2008). R: A language and environment for
+    statistical computing. R Foundation for Statistical Computing, Vienna,
+    Austria, http://cran.r-project.org/
+
+(10) Referenzen
+    • Alle im Literaturverzeichnis aufgefuhrten Arbeiten mussen im Text erscheinen und
+    umgekehrt.
+    • Innerhalb des Berichts erfolgen Referenzen auf eine Literaturangabe wie folgt: (Au-
+    tor Jahr) oder Autor (Jahr). Bei zwei Autoren sind beide anzugeben, bei mehr als
+    zwei Autoren ist die Kurzform (Autor 1 et al. Jahr) bzw. Autor 1 et al. (Jahr) zu
+    wahlen. Sind mehrere Arbeiten eines Autors aus demselben Jahr vorhanden, wer-
+    den sie zusatzlich durch Buchstaben nach den Jahreszahlen unterschieden: (2005a),
+    (2005b) usw. Beispiel fur die oben genannten Publikationen:
+    – (Schumacher und Schulgen 2008) bzw. Schumacher und Schulgen (2008)
+    – (Byth et al. 2006) bzw. Byth et al. (2006)
+    • Werden Sachverhalte aus einem Buch entnommen, so sind der Referenz die entspre-
+    chenden Seiten bzw. Kapitel anzugeben, Beispiel: ” [...] Die disjunktive Normalform
+    fur die Systemzuverlassigkeitsfunktion ist aus Hartung et al. (2005, S. 756) entnom-
+    men.“
+    • Auch fur die verwendete Software ist eine Referenz anzugeben. Wie z.B. ”Die sta-
+    tistischen Berechnungen wurden mit R 2.8.1 (R Development Core Team 2008)
+    durchgefuhrt.
+
+(11) Grafiken und Tabellen
+    • Alle Grafiken mussen eine Unterschrift, alle Tabellen eine Uberschrift erhalten.
+    • Grafiken und Tabellen werden durchnummeriert, z.B.: ”Abb. 1.1: Titel oder Er-
+    klarung der Grafik“ bzw. ”Tab. 1.1: Titel oder Inhalt der Tabelle“
+    • Auch im Anhang mussen Grafiken und Tabellen nummeriert werden und eine Unter-
+    bzw. Uberschrift enthalten.
+    • Auf jede Grafik und Tabelle muss im Text mindestens einmal Bezug genommen
+    werden (das gilt auch fur die im Anhang). Dabei wird die entsprechende Nummer der
+    Grafik oder Tabelle verwendet (Bsp: ” In Tab. 1.1 ist der Zusammenhang zwischen
+    ...“).
+    • Grafiken und Tabellen sollen selbsterklarend sein. Alle Achsen sollten beschriftet
+    sein. Zusatzliche relevante Informationen konnen z.B. in einer Legende dargestellt
+    werden.
+    • Grafiken, mit denen Ergebnisse miteinander verglichen werden sollen, sollen ne-
+    beneinander bzw. untereinander mit gleichen Achsen dargestellt werden, damit ein
+    Vergleich einfach moglich wird.
+
+Weitere Hinweise
+    • Sprachlich sollten prazise und sachliche/wissenschaftliche Formulierungen gewahlt
+    werden. Zu vermeiden sind: ”Erlebnisstil“, Umgangssprache, Fullworter, zu viele
+    Wortwiederholungen und lange Schachtelsatze.
+    • Zitate sind als solche kenntlich zu machen (Einrucken des Textes, Anfuhrungszei-
+    chen, exakte Angabe des Buches/Artikels inkl. Seitenzahl) und durfen nicht aus
+    langeren Textpassagen bestehen. Das Abschreiben langerer Textpassagen ist nicht
+    erlaubt!
+    • Das Ubernehmen von Textpassagen von anderen Berichten ist auch nicht erlaubt!
+    Naturlich kann und soll in Gruppenarbeit die Vorgehensweise erarbeitet werden.
+
+
+
+Ausgefüllt:
+
+
+Seite 1) Deckblatt
+    – Statistische Visualisierung / Visualisierung komplexer Datenstrukturen
+    – Daten rund um die Geburt 
+    – Julian Riehl
+    – Dennis Koleda, <anderer>
+    – 30.03.2021
+
+Seite 2) Inhaltsverzeichnis
+    – Auflistung aller Kapitel (einschließlich Unterkapitel falls vorhanden), des An-
+    hangs und des Literaturverzeichnisses, jeweils mit Angabe der Seitennummer 
+
+Seite 3) Einleitung
+    – Motivation, kurze Beschreibung von Inhalt und Ziel des Teilprojekts
+    – kurze Erlauterung der Vorgehensweise zur Problemlosung
+    – evtl. kurze Darstellung der zentralen Ergebnisse
+    – Uberblick uber die einzelnen Kapitel
+
+(4) Problemstellung
+    – Beschreibung der Ziele des Projekts (inhaltliche und statistische Zielsetzung)
+    – Beschreibung des Datenmaterials
+    ∗ Art und Umfang der Stichprobe (Vollerhebung, Schichtung usw.)
+    ∗ Art der Datenerhebung (geplanter Versuch, Beobachtungsstudie, Fragebogen usw.)
+    ∗ Beschreibung aller Variablen (inhaltliche Bedeutung, Einheiten usw.)
+    ∗ Diskussion der Datenqualitat (fehlende Werte, Messgenauigkeit usw.)
+
+(5) Statistische Methoden
+    – Beschreibung der verwendeten statistischen Verfahren, Modelle usw. und wel-
+      che Eigenschaften diese besitzen (hier sind auch mathematische Formeln notig)
+    – Diskussion der zugrunde liegenden Annahmen, Rechtfertigung der Annahmen
+      bzw. wie sie uberpruft werden konnen (auch hier konnen mathematische For-
+      meln notig sein)
+    – Angabe der verwendeten Hilfsmittel (Software, statistische Tafeln usw.)
+
+(6) Statistische Auswertung
+    – Gegebenenfalls Uberprufung der zugrunde liegenden Annahmen
+    – Ausfuhrliche Darstellung der Ergebnisse, aufbereitet mit Hilfe von Tabellen
+      und Grafiken
+    – Interpretation der Ergebnisse in Hinblick auf die Problemstellung
+
+(7) Zusammenfassung
+    – Kurze Wiederholung der Fragestellung des Projekts
+    – Kurze Darstellung der wichtigsten Ergebnisse
+    – Diskussion der Ergebnisse (mogliche Schlussfolgerungen, Warnung vor Fehlin-
+    terpretationen usw.)
+    – Ausblick (offene Fragen, Hinweis auf mogliche weitere Untersuchungen usw.) Hinweis
+    Die Einleitung und die Zusammenfassung sollen eigenstandig lesbar sein.
+
+(8) Anhang
+    – Programmcode gegliedert nach den einzelnen Fragestellungen, die in Uber-
+    schriften angegeben werden
+    – Weitere wichtige Tabellen und Grafiken
+    Hinweis
+    Bei einer Gliederung im Anhang werden Buchstaben (und keine Zahlen wie im
+    ”Kern“ des Berichts) verwendet.
+    
+(9) Literaturverzeichnis
+    – Auflistung aller zur Auswertung herangezogenen Zeitschriftenartikel, Bucher
+    (dazu gehoren z.B. auch Software-Manuals) und Web-Seiten in alphabetischer
+    Reihenfolge der Autoren.
+    Hinweise
+    – Beispiel fur eine Lehrbuchangabe:
+        Schumacher, M. und Schulgen, G. (2008). Methodik klinischer Studien. 3. Auf-
+        lage, Springer, Berlin.
+    – Beispiel fur einen Zeitschriftenartikel:
+        Byth, K., Cox, D. R. und Forder, P. (2006). Assessing the relationship between
+        symptoms of allergic rhinoconjunctivitis and pollen counts. Australian and New
+        Zealand Journal of Statistics 48(4), 417-428.
+    – Bei Web-Seiten muss das Datum der Abfrage mit angegeben werden.
+    – Wie die verwendete Software anzugeben ist, wird durch die Software festgelegt.
+    Wie z.B. R zitiert werden soll, gibt R mit dem Befehl citation() an, z.B. fur
+    R 2.8.1:
+    R Development Core Team zwe(2008). R: A language and environment for
+    statistical computing. R Foundation for Statistical Computing, Vienna,
+    Austria, http://cran.r-project.org/
+
+(10) Referenzen
+    • Alle im Literaturverzeichnis aufgefuhrten Arbeiten mussen im Text erscheinen und
+    umgekehrt.
+    • Innerhalb des Berichts erfolgen Referenzen auf eine Literaturangabe wie folgt: (Au-
+    tor Jahr) oder Autor (Jahr). Bei zwei Autoren sind beide anzugeben, bei mehr als
+    zwei Autoren ist die Kurzform (Autor 1 et al. Jahr) bzw. Autor 1 et al. (Jahr) zu
+    wahlen. Sind mehrere Arbeiten eines Autors aus demselben Jahr vorhanden, wer-
+    den sie zusatzlich durch Buchstaben nach den Jahreszahlen unterschieden: (2005a),
+    (2005b) usw. Beispiel fur die oben genannten Publikationen:
+    – (Schumacher und Schulgen 2008) bzw. Schumacher und Schulgen (2008)
+    – (Byth et al. 2006) bzw. Byth et al. (2006)
+    • Werden Sachverhalte aus einem Buch entnommen, so sind der Referenz die entspre-
+    chenden Seiten bzw. Kapitel anzugeben, Beispiel: ” [...] Die disjunktive Normalform
+    fur die Systemzuverlassigkeitsfunktion ist aus Hartung et al. (2005, S. 756) entnom-
+    men.“
+    • Auch fur die verwendete Software ist eine Referenz anzugeben. Wie z.B. ”Die sta-
+    tistischen Berechnungen wurden mit R 2.8.1 (R Development Core Team 2008)
+    durchgefuhrt.
+
+(11) Grafiken und Tabellen
+    • Alle Grafiken mussen eine Unterschrift, alle Tabellen eine Uberschrift erhalten.
+    • Grafiken und Tabellen werden durchnummeriert, z.B.: ”Abb. 1.1: Titel oder Er-
+    klarung der Grafik“ bzw. ”Tab. 1.1: Titel oder Inhalt der Tabelle“
+    • Auch im Anhang mussen Grafiken und Tabellen nummeriert werden und eine Unter-
+    bzw. Uberschrift enthalten.
+    • Auf jede Grafik und Tabelle muss im Text mindestens einmal Bezug genommen
+    werden (das gilt auch fur die im Anhang). Dabei wird die entsprechende Nummer der
+    Grafik oder Tabelle verwendet (Bsp: ” In Tab. 1.1 ist der Zusammenhang zwischen
+    ...“).
+    • Grafiken und Tabellen sollen selbsterklarend sein. Alle Achsen sollten beschriftet
+    sein. Zusatzliche relevante Informationen konnen z.B. in einer Legende dargestellt
+    werden.
+    • Grafiken, mit denen Ergebnisse miteinander verglichen werden sollen, sollen ne-
+    beneinander bzw. untereinander mit gleichen Achsen dargestellt werden, damit ein
+    Vergleich einfach moglich wird.
+
+Weitere Hinweise
+    • Sprachlich sollten prazise und sachliche/wissenschaftliche Formulierungen gewahlt
+    werden. Zu vermeiden sind: ”Erlebnisstil“, Umgangssprache, Fullworter, zu viele
+    Wortwiederholungen und lange Schachtelsatze.
+    • Zitate sind als solche kenntlich zu machen (Einrucken des Textes, Anfuhrungszei-
+    chen, exakte Angabe des Buches/Artikels inkl. Seitenzahl) und durfen nicht aus
+    langeren Textpassagen bestehen. Das Abschreiben langerer Textpassagen ist nicht
+    erlaubt!
+    • Das Ubernehmen von Textpassagen von anderen Berichten ist auch nicht erlaubt!
+    Naturlich kann und soll in Gruppenarbeit die Vorgehensweise erarbeitet werden.
